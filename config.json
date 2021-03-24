@@ -1,4 +1,3 @@
-
 {
 	"configVersion": "1",
 	"https": true,
@@ -12,7 +11,7 @@
 	"ci_config": {
 		"output_directories": ["templates", "desktop"],
 		"build_setup_cmd": "echo setup",
-		"build_cmd": "mkdir desktop && echo \"<html>hello world!</html>\" > desktop/index.html",
+		"build_cmd": "echo hello",
 		"serve_setup_cmd": "echo setup",
 		"serve_cmd": "echo serve"
 	}
